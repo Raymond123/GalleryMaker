@@ -77,16 +77,7 @@ public class Gui extends JFrame{
             // Set cross-platform Java L&F (also called "Metal")
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         }
-        catch (UnsupportedLookAndFeelException e) {
-            // handle exception
-        }
-        catch (ClassNotFoundException e) {
-            // handle exception
-        }
-        catch (InstantiationException e) {
-            // handle exception
-        }
-        catch (IllegalAccessException e) {
+        catch (UnsupportedLookAndFeelException | ClassNotFoundException | IllegalAccessException | InstantiationException e) {
             // handle exception
         }
 

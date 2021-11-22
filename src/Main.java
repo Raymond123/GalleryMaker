@@ -107,7 +107,7 @@ public class Main implements ActionListener, PropertyChangeListener {
                 //This is where a real application would open the file.
                 this.gui.file.setText(file.getPath().replace("\\", "/") + "/");
             } else {
-                // JOptionPane.showMessageDialog(this.gui, "File not opened");
+                JOptionPane.showMessageDialog(this.gui, "File not opened");
             }
         }
         if (e.getSource() == this.gui.run) {

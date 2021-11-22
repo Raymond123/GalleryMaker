@@ -38,7 +38,7 @@ public class CreateShortcut {
         this.gui = gui;
         this.gui.console.setText("");
         this.progressIndex = 0;
-        this.task = task;
+        //this.task = task;
         //listDirectories();
         //this.databaseCon = new DatabaseCon();
         //this.databaseCon.printTable();
